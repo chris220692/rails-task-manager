@@ -2,4 +2,7 @@
 <p><%= @task.detail %></p>
 <p><%= @task.completed %></p>
 
+<%= link_to "Delete", destroy_path(@task.id), method: :delete%>
+
+
 
